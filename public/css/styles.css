@@ -2,16 +2,30 @@
     height: 100px;
 }
 
-.nav-wrapper {
-    background-color: #800000;
+.top-nav {
+    box-shadow: none;
+    background-color: #7fa1d8;
 
 }
-
 .side-nav {
-    background-color: #eeeeee;
+    background-color: #f2f2f2
 }
 
 body {
-    background-color: #eeeeee ;
-    font-family: Arial, Helvetica, sans-serif
+    background-image: url("https://static.pexels.com/photos/436784/pexels-photo-436784.jpeg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    font-size: 3em;
+    text-shadow: 3px 3px #7fa1d8;
+    color: white;
+}
+
+.icon {
+    padding-left: 10px;
 }
