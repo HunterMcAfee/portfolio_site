@@ -1,31 +1,133 @@
-.navbar-fixed {
-    height: 100px;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 
-.top-nav {
-    box-shadow: none;
-    background-color: #7fa1d8;
-
-}
-.side-nav {
-    background-color: #f2f2f2
-}
-
-body {
-    background-image: url("https://static.pexels.com/photos/436784/pexels-photo-436784.jpeg");
-    font-family: Arial, Helvetica, sans-serif;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.sectionTitle {
-    font-weight: bold;
-    font-size: 3em;
-    text-shadow: 3px 3px #7fa1d8;
-    color: white;
-}
-
-.icon {
+.laptop {
+    padding-right: 10px;
     padding-left: 10px;
 }
+
+.nameTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 20vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tagline {
+    color: white;
+    font-size: 120%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.nameSection {
+    background-image: url("https://static.pexels.com/photos/459654/pexels-photo-459654.jpeg");
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    height: 50vh;
+}
+
+.aboutMeTitle {
+    font-size: 200%;
+    font-weight: bold;
+    padding: 10px;
+    background-color: white;
+    color: rgba(62, 120, 178, 1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+.aboutMeInfo {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.aboutMeSection {
+    background-color: rgba(62, 120, 178, 1);
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+.socialTitle {
+    background-color: rgba(48, 38, 42, 1);
+    color: rgba(232, 232, 232, 1);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 300%;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.socialSection {
+    background-color: rgba(232, 232, 232, 1);
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.socialLinks {
+    width: 80%;
+}
+
+.projectsTitle {
+    font-size: 300%;
+    font-weight: bold;
+    padding: 10px;
+    background-color: white;
+    color: rgba(91, 80, 122, 1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+.projectsSection {
+    background-color: rgba(91, 80, 122, 1);
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.list-group-item {
+    background-color: rgba(48, 38, 42, 1);
+    color: rgba(232, 232, 232, 1);
+    text-align: center;
+    border-color: grey;
+}
+
+.card img {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    .tagline {
+        font-size: 75%;
+    }
+}
+
+

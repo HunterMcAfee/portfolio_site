@@ -5,97 +5,118 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">    
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
   <title>Hunter McAfee</title>
 </head>
 
 <body>
   <!-- HEADER -->
-  <div class="navbar-fixed">
-    <nav class="top-nav" id="top-nav">
-      <div class="nav-wrapper z-depth-0">
-        <a href="#!" class="brand-logo"><i class="material-icons icon">laptop_mac</i>Hunter McAfee</a>
-        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#aboutMe">About Me</a></li>
-          <li><a href="#social">Social</a></li>
-          <li><a href="#projects">Projects</a></li>
-        </ul>
-    </nav>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand d-flex align-content-center" href="#name"><i class="material-icons icon laptop">laptop_mac</i>Hunter McAfee</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutMe">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#social">Social</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+      </ul>
     </div>
-    <ul class="side-nav" id="mobile-demo">
-      <li><a href="#aboutMe">About Me</a></li>
-      <li><a href="#social">Social</a></li>
-      <li><a href="#projects">Projects</a></li>
-    </ul>
+  </nav>
+  
+  <div class="nameSection" id="name">
+    <div class="row justify-content-center">
+      <div class="justify-content-center nameTitle">HUNTER MCAFEE</div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="justify-content-center tagline">Full-stack Web Developer | Gamer | Problem-solver</div>
+    </div>
+  </div>
 
-    <!-- BODY -->
-    <div class="container">
+  <div class="aboutMeSection" id="aboutMe">
+    <div class="row justify-content-center">
+      <div class="justify-content-center aboutMeTitle">About Me</div>
+    </div>
+    <div class="row justify-content-center aboutMeInfo">
+      <div>I am a biologist turned web developer. I am looking for opportunities to build and develop valuable user-driven web applications in a strong team-oriented work environment.</div>
+    </div>
+  </div>
 
-      <div class="row" id="aboutMe">
-      <div class="col s12 sectionTitle center-align">About Me</div>
+  <div class="socialSection" id="social">
+    <div class="row justify-content-center">
+      <div class="justify-content-center socialTitle">Social</div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="list-group socialLinks">
+        <a href="https://www.linkedin.com/in/hunter-mcafee/" class="list-group-item list-group-item-action" target="_blank">LinkedIn</a>
+        <a href="https://github.com/HunterMcAfee" class="list-group-item list-group-item-action" target="_blank">GitHub</a>
+        <a href="https://app.box.com/s/k9ldwsdxesoff4bjvovc3zkbc95r44cm" class="list-group-item list-group-item-action" target="_blank">Resume</a>
       </div>
+    </div>
+  </div>
 
-      <div class="row">
-        <div class="col s10 offset-s1">
-          I am a Biologist turned Web Developer. I am looking for opportunities to build and develop valuable user-driven web applications in a strong team-oriented work environment.
+  <div class="projectsSection" id="projects">
+    <div class="row justify-content-center">
+      <div class="justify-content-center projectsTitle">Projects</div>
+    </div>
+
+    <div class="d-flex column justify-content-around flex-wrap">
+      <div class="card p-2" style="width: 37.5rem; margin: 20px;">
+        <img class="card-img-top" src="./css/images/toobr.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">toobr</h4>
+          <p class="card-text">Full-stack application that utilizes React as the front-end framework with Ruby on Rails (Active Record with PostgresQL) for the back-end. The app requests movie and tv show information from an external api and allows users to generate saved movie and show lists.</p>
+          <a href="https://toobr.herokuapp.com/" class="btn btn-danger" target="_blank">Go to Live Site</a>
         </div>
       </div>
 
-      <div class="row" id="social">
-      <div class="col s12 sectionTitle center-align">Social</div>
-      </div>
-
-      <div class="row">
-        <div class="col s10 offset-s1">
-          <div class="collection z-depth-0">
-            <a href="https://app.box.com/s/k9ldwsdxesoff4bjvovc3zkbc95r44cm" class="collection-item">RESUME</a>
-            <a href="https://github.com/HunterMcAfee" class="collection-item">GitHub</a>
-            <a href="https://www.linkedin.com/in/hunter-mcafee/" class="collection-item">LinkedIn</a>
-          </div>
+      <div class="card p-2" style="width: 37.5rem; margin: 20px;">
+        <img class="card-img-top" src="./css/images/TwitchParty.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">TwitchParty</h4>
+          <p class="card-text">Full-stack Express web application utilizing React as the front-end framework and MongoDB for database storage.  User is able to create Twitch streamer groups and watch them at once.</p>
+          <a href="https://twitch-party.herokuapp.com/" class="btn btn-danger" target="_blank">Go to Live Site</a>
         </div>
       </div>
 
-      <div class="row" id="projects">
-        <div class="col s12 sectionTitle center-align">Projects</div>
-        <div class="row">
-          <div class="col s10 offset-s1">
-            <div class="card z-depth-0">
-              <div class="card-image">
-                <img class="responsive-img" src="https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/596cef8fa700c45157f82b55/screenshot.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title bold">Connect Four</span>
-                <p>Built a full game of Connect Four that utilizes HTML5, CSS3, Javascript, jQuery, and Bootstrap</p>
-              </div>
-              <div class="card-action">
-                <a href="http://connectfourhm.bitballoon.com/" target="blank">Link to Live Site</a>
-              </div>
-            </div>
-            <div class="card z-depth-0">
-              <div class="card-image">
-                <img class="responsive-img" src="./css/images/BucketbyDay.png">
-              </div>
-              <div class="card-content">
-                <span class="card-title bold">Bucket-by-Day</span>
-                <p>Built a MEN stack application that lets the user create daily bucket lists and add activities to them.</p>
-              </div>
-              <div class="card-action">
-                <a href="https://mysterious-waters-71092.herokuapp.com/" target="blank">Link to Live Site</a>
-              </div>
-            </div>
-          </div>
+      <div class="card p-2" style="width: 37.5rem; margin: 20px;">
+        <img class="card-img-top" src="./css/images/Bucket_by_Day.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Bucket by Day</h4>
+          <p class="card-text">MEN stack web application that uses Handlebars for view templating.  Users are able to create daily bucket lists with activities that individuals are able to complete within one day.</p>
+          <a href="https://mysterious-waters-71092.herokuapp.com/" class="btn btn-danger" target="_blank">Go to Live Site</a>
         </div>
-
       </div>
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-      <script src="script/script.js"></script>
+
+      <div class="card p-2" style="width: 37.5rem; margin: 20px;">
+        <img class="card-img-top" src="./css/images/Vagabond.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Vagabond Destinations</h4>
+          <p class="card-text">Built a Ruby on Rails application that allows users to view a set list of cities and write, edit, and delete posts for other users to view.</p>
+          <a href="https://vagabond-destinations.herokuapp.com/" class="btn btn-danger" target="_blank">Go to Live Site</a>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 
 </html>
