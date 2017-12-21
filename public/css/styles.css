@@ -12,12 +12,17 @@ html,body
     padding-left: 10px;
 }
 
+.navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
 .nameTitle {
     color: white;
     font-weight: bold;
-    font-size: 400%;
+    font-size: 600%;
     text-align: center;
-    margin-top: 27.5vh;
+    margin-top: 40vh;
     padding-top: 20px;
     width: 80%;
     border-top-left-radius: 5px;
@@ -44,17 +49,17 @@ html,body
 
 .nameSection {
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
     background-position: center;
-    height: 70vh;
+    height: 100vh;
 }
 
 .aboutMeTitle {
     font-size: 200%;
     font-weight: bold;
     padding: 10px;
-    background-color: #F5F3F5;
-    color: #171717;
+    background-color: rgb(255, 255, 255);
+    color: rgb(96, 128, 216);
     margin-bottom: 20px;
     border-radius: 5px;
     text-align: center;
@@ -68,17 +73,17 @@ html,body
 }
 
 .aboutMeSection {
-    background-color: #171717;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
-    color: #F5F3F5;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5.0rem;
+    padding-bottom: 5.0rem;
+    color: rgb(0, 0, 0);
     font-size: 150%;
     text-align: center;
 }
 
 .socialTitle {
-    background-color: #F5F3F5;
-    color: #576CA8;
+    background-color: white;
+    color: rgb(96, 128, 216);
     padding: 10px;
     margin-bottom: 20px;
     font-size: 300%;
@@ -89,20 +94,25 @@ html,body
 }
 
 .socialSection {
-    background-color: #576CA8;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    background-color: rgb(96, 128, 216);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .socialLinks {
     width: 80%;
 }
 
+.socialLinks a {
+    color: rgb(26, 24, 24);
+    font-weight: bold;
+}
+
 .projectsTitle {
     font-size: 300%;
     font-weight: bold;
     padding: 10px;
-    background-color: #F5F3F5;
+    background-color: white;
     color: #1B264F;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -111,7 +121,7 @@ html,body
 }
 
 .projectsSection {
-    background-color: #1B264F;
+    background-color: white;
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
 }
@@ -127,7 +137,8 @@ html,body
 }
 
 .card {
-    background-color: #F5F3F5;
+    background-color: white;
+    box-shadow: 2px 2px black;
 }
 
 @media only screen and (max-width: 500px) {
@@ -136,9 +147,10 @@ html,body
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 945px) {
     .nameTitle {
-        margin-top: 20vh;
+        margin-top: 25vh;
+        font-size: 400%;
     }
 }
 
