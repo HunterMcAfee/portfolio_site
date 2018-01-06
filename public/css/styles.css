@@ -57,13 +57,17 @@ html,body
 .aboutMeTitle {
     font-size: 200%;
     font-weight: bold;
-    padding: 10px;
     background-color: rgb(255, 255, 255);
     color: rgb(96, 128, 216);
-    margin-bottom: 20px;
     border-radius: 5px;
     text-align: center;
     width: 80%;
+}
+
+.aboutme-hr {
+    max-width: 75px;
+    border-width: 5px;
+    border-color: grey;
 }
 
 .aboutMeInfo {
@@ -74,7 +78,7 @@ html,body
 
 .aboutMeSection {
     background-color: rgb(255, 255, 255);
-    padding-top: 5.0rem;
+    padding-top: 2.5rem;
     padding-bottom: 5.0rem;
     color: rgb(0, 0, 0);
     font-size: 150%;
@@ -82,10 +86,8 @@ html,body
 }
 
 .socialTitle {
-    background-color: white;
-    color: rgb(96, 128, 216);
-    padding: 10px;
-    margin-bottom: 20px;
+    background-color: rgb(96, 128, 216);
+    color: rgb(255, 255, 255);
     font-size: 300%;
     font-weight: bold;
     border-radius: 5px;
@@ -93,36 +95,47 @@ html,body
     text-align: center;
 }
 
+.social-hr {
+    max-width: 75px;
+    border-width: 5px;
+    border-color: white;
+}
+
 .socialSection {
     background-color: rgb(96, 128, 216);
-    padding-top: 5rem;
+    padding-top: 2.5rem;
     padding-bottom: 5rem;
 }
 
 .socialLinks {
     width: 80%;
+    padding-top: 10px;
 }
 
 .socialLinks a {
-    color: rgb(26, 24, 24);
+    color: rgb(96, 128, 216);
     font-weight: bold;
 }
 
 .projectsTitle {
     font-size: 300%;
     font-weight: bold;
-    padding: 10px;
-    background-color: white;
-    color: #1B264F;
-    margin-bottom: 20px;
+    background-color: #21252A;
+    color: white;
     border-radius: 5px;
     text-align: center;
     width: 80%;
 }
 
+.project-hr {
+    max-width: 75px;
+    border-width: 5px;
+    border-color: white;
+}
+
 .projectsSection {
-    background-color: white;
-    padding-top: 3.5rem;
+    background-color: #21252A;
+    padding-top: 2.5rem;
     padding-bottom: 3.5rem;
 }
 
@@ -138,7 +151,6 @@ html,body
 
 .card {
     background-color: white;
-    box-shadow: 2px 2px black;
 }
 
 @media only screen and (max-width: 500px) {
